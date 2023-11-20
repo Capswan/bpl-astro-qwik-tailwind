@@ -1,0 +1,19 @@
+{
+  "name": "astro-qwik-tailwind",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "production": "docker build -t bpl-aqt . && docker run -p 4321:4321 bpl-aqt"
+  },
+  "dependencies": {
+    "@astrojs/node": "^6.0.4",
+    "@builder.io/qwik": "^1.2.18",
+    "@qwikdev/astro": "^0.1.19",
+    "astro": "^3.5.5"
+  }
+}
