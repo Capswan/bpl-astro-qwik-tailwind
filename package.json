@@ -12,8 +12,10 @@
   },
   "dependencies": {
     "@astrojs/node": "^6.0.4",
+    "@astrojs/tailwind": "^5.0.2",
     "@builder.io/qwik": "^1.2.18",
     "@qwikdev/astro": "^0.1.19",
-    "astro": "^3.5.5"
+    "astro": "^3.5.5",
+    "tailwindcss": "^3.3.5"
   }
 }
